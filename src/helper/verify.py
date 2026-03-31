@@ -5,6 +5,7 @@ from pathlib import Path
 logger = logging.getLogger(__name__)
 
 
+# TODO - Implement this function to generate the Pact file using contract data and the results
 def generate_pact(contract_data: dict, results: dict) -> Path: ...
 
 
