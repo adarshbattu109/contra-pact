@@ -1,0 +1,21 @@
+[project]
+name = "contra-pact"
+version = "0.1.0"
+description = "A Python library for contract testing and pact generation."
+readme = "README.md"
+authors = [
+    { name = "Adarsh Battu", email = "adarsh.battu109@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "pandas>=3.0.1",
+    "requests>=2.33.1",
+    "tqdm>=4.67.3",
+]
+
+[project.scripts]
+contra = "contra_pact.main:main"
+
+[build-system]
+requires = ["uv_build>=0.10.9,<0.11.0"]
+build-backend = "uv_build"
