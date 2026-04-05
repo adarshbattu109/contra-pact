@@ -1,16 +1,17 @@
+"""File to store all the constants used across the project"""
+
 ALLOWED_METHODS = [
     "GET",
     "POST",
-    "PUT",
-    "DELETE",
-    "PATCH",
 ]
 
 MANDATORY_CONTRACT_COLUMNS = [
     "TC#",
+    "URL",
     "METHOD",
-    "ENDPOINT",
-    "STATUS_CODE",
     "PAYLOAD",
     "HEADERS",
+    "QUERY_PARAMS",
+    "TIMEOUT",
+    "STATUS_CODE",
 ]
